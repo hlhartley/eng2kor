@@ -17,3 +17,12 @@ function translateWord(){
   console.log(translations[englishInput]);
 }
 
+function fillTranslationTable(){
+  var x = document.getElementById('translation-table')
+  for (var key in translations){
+    x.innerHTML += "<h4 class='translation-pair'>" + key + " " + translations[key]+ "</h4>";
+   // x.textContent += key + " " + translations[key] + " ";
+  }
+}
+
+fillTranslationTable();

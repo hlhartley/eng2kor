@@ -16,3 +16,17 @@
 .red {
   color: red;
 }
+
+.translation-pair {
+  text-decoration: underline;
+}
+
+#search-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#enter {
+  margin-top: 10px;
+}
