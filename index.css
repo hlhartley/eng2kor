@@ -1,3 +1,10 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .main-header {
   color: black;
   display: flex;
@@ -21,7 +28,7 @@
   text-decoration: underline;
 }
 
-#search-box {
+#search-box, #add-words{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,4 +36,15 @@
 
 #enter {
   margin-top: 10px;
+}
+
+
+#enter:hover, #add-to-dictionary:hover {
+    color: white;
+    background-color: blue;
+}
+
+#snoopie {
+  height: auto;
+  width: 300px;
 }
